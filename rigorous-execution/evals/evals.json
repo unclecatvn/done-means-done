@@ -1,0 +1,23 @@
+{
+  "skill_name": "rigorous-execution",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "write me a python script that merges 3 revenue csv files (rev_apr.csv, rev_may.csv, rev_jun.csv, same columns: date, sku, quantity, unit_price) into one q2_report.csv with an added line_total column, sorted by date",
+      "expected_output": "Complete script; makes small decisions itself (encoding, date format) and notes them instead of asking; leaves a runnable self-check (assert/demo with sample data) and runs it; report cites actual output.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "the stock calculation function in inventory.py is off whenever there's a return order, fix it for me",
+      "expected_output": "Reads the file before editing; reproduces the bug with a test case containing a return order; minimal targeted fix, no drive-by refactoring; reruns the check and reports with fail-before/pass-after evidence.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "why is the orders API so slow lately, sometimes 5-6 seconds",
+      "expected_output": "Recognizes this as a problem description, not a fix request: investigates (reads code/logs if available), gives an assessment of likely causes with evidence, then STOPS — does not modify code or config on its own.",
+      "files": []
+    }
+  ]
+}
