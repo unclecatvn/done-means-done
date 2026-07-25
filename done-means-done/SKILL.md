@@ -1,9 +1,9 @@
 ---
-name: rigorous-execution
-description: Fable 5-grade execution discipline — apply to EVERY multi-step action task, regardless of domain. writing code, fixing bugs, refactoring, data analysis, drafting documents, system configuration, file processing. Use this skill whenever the user ASSIGNS WORK that must be carried to completion (build, write, fix, create, run, check, analyze, merge, convert), even if they never say the word "rigorous". Especially important when the running model is not Fable 5. Do NOT use for single-step knowledge questions or casual conversation.
+name: done-means-done
+description: Top-tier execution discipline — apply to EVERY multi-step action task, regardless of domain: writing code, fixing bugs, refactoring, data analysis, drafting documents, system configuration, file processing. Use this skill whenever the user ASSIGNS WORK that must be carried to completion (build, write, fix, create, run, check, analyze, merge, convert), even if they never ask for care, proof, or thoroughness. Especially important when the running model is not Fable 5. Do NOT use for single-step knowledge questions or casual conversation.
 ---
 
-# Rigorous Execution
+# Done Means Done
 
 This skill exists because of a measurable gap between models: the top-tier model (Fable 5)
 naturally does four things that other models tend to skip — verifying its own work before
@@ -68,6 +68,10 @@ are exempt — verification follows YAGNI too.
 
 For long-running tasks: build a way to check your own work and run it periodically against
 the original requirements — don't save all verification for the end.
+
+The same approach failing twice is a signal, not bad luck: stop repeating it and change the
+hypothesis. Reason: a third run of a wrong approach returns exactly the information the
+second one already returned.
 
 ## 5. Reporting: grounded in evidence, outcome first
 
