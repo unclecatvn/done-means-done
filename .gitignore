@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# benchmark run artifacts (skill-creator eval loop output)
+done-means-done-workspace/
